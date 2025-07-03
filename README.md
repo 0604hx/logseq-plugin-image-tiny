@@ -3,7 +3,10 @@
 
 **📚 系列博客 / Blogs**
 
-* [实战教你如何开发自己的 Logseq 插件：自动压缩粘贴的图片](https://blog.csdn.net/ssrc0604hx/article/details/148903071)
+* [Logseq 插件开发实战一：初识插件机制并实现自动压缩粘贴的图片](https://blog.csdn.net/ssrc0604hx/article/details/148903071)
+* [Logseq 插件开发实战二：国际化 I18N 与配置多语言](https://blog.csdn.net/ssrc0604hx/article/details/149090434)
+* [Logseq 插件开发实战三：自定义斜线命令 SlashCommand](https://blog.csdn.net/ssrc0604hx/article/details/149090733)
+* [Logseq 插件开发实战四：发布到官方插件市场](https://blog.csdn.net/ssrc0604hx/article/details/149090833)
 
 **📽️ 演示 / How To Use**
 
