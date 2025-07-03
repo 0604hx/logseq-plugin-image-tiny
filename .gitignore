@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+dist
+/.VSCodeCounter
+
+.vscode
+
+# local env files
+.env.local
+.env.*.local
+
+pnpm-lock.yaml
