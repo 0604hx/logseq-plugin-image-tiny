@@ -28,6 +28,7 @@ const i18n = {
         slash: "🔘toggle image auto tiny",
         turnOn: "Image auto tiny enable!",
         turnOff: "Image auto tiny disabled!",
+        tip: "{name} compressed {value}",
 
         title: "Image Auto Tiny Plugin",
         description: "WebP and AVIF are two modern image formats that aim to reduce file size, improve loading speed, and maintain high image quality.",
@@ -50,6 +51,7 @@ const i18n = {
         slash: "🔘启动/关闭图片自动压缩",
         turnOn: "图片自动压缩已启用",
         turnOff: "图片自动压缩已停用",
+        tip: "{name} 已压缩 {value}",
 
         title: "图片自动压缩插件",
         description: "WebP 和 AVIF 是两种现代图像格式，目标都是减小文件大小、提升加载速度、同时保持较高画质。",
@@ -173,7 +175,7 @@ const handler = async e=>{
             const ziped = `${((1-blob.size/file.size)*100).toFixed(2)}%`
             console.debug("文件保存到", path, "压缩率", ziped)
 
-            logseq.UI.showMsg(`${file.name}已压缩${ziped}`, 'success')
+            logseq.UI.showMsg(t('tip', { name: file.name, value: ziped }), 'success')
 
             const widthOpts = width>0?`{:width ${width}}`:""
             await logseq.Editor.insertAtEditingCursor(`![${file.name}](../assets/storages/${logseq.baseInfo.id}/${targetFilename})${widthOpts}`)

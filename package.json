@@ -1,7 +1,7 @@
 {
     "name": "logseq-image-tiny",
     "version": "25.7.7",
-    "main": "index.js",
+    "main": "index.html",
     "scripts": {},
     "keywords": [],
     "author": "",
@@ -11,8 +11,5 @@
         "id": "image-tiny",
         "icon": "logo.png",
         "title": "Image Auto Tiny"
-    },
-    "dependencies": {
-        "@logseq/libs": "^0.0.17"
     }
 }
