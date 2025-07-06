@@ -5,7 +5,7 @@
     "scripts": {},
     "keywords": [],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "description": "A plugin that automatically converts images to webp/avi format to reduce image storage volume.",
     "logseq": {
         "id": "image-tiny",
